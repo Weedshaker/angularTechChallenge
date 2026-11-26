@@ -1,0 +1,12 @@
+<details
+  #details
+  [open]="open()"
+  (toggle)="open.set(details.open)"
+>
+  <summary>
+    <ng-content select="h1, h2, h3, h4, h5, h6" />
+  </summary>
+  <section>
+    <ng-content />
+  </section>
+</details>
