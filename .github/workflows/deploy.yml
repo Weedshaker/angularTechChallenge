@@ -30,7 +30,7 @@ jobs:
         run: npm ci
 
       - name: Build Angular
-        run: npm run build -- --base-href /YOUR_REPOSITORY_NAME/
+        run: npm run build -- --base-href /demo/
 
       - name: Prepare Pages
         run: |
