@@ -35,7 +35,7 @@ jobs:
       - name: Prepare Pages
         run: |
           mkdir -p dist/pages
-          cp -r dist/YOUR_ANGULAR_PROJECT_NAME/browser/. dist/pages/
+          cp -r dist/demo/browser/. dist/pages/
           cp dist/pages/index.html dist/pages/404.html
 
       - name: Upload artifact
