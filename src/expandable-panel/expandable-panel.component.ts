@@ -1,4 +1,4 @@
-import { Component, model } from '@angular/core';
+import { Component, model, input } from '@angular/core';
 
 @Component({
   selector: 'lib-expandable-panel',
@@ -7,4 +7,5 @@ import { Component, model } from '@angular/core';
 })
 export class LibExpandablePanel {
   public open = model(false);
+  public name = input<string | null>(null);
 }
